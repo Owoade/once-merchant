@@ -1,0 +1,14 @@
+@keyframes animate {
+    from {
+        background-color:#fcd0cc,
+    }
+    to {
+        background-color:white,
+    }
+}
+
+
+.animate {
+  animation-name: animate;
+  animation-duration: .6s;
+}
