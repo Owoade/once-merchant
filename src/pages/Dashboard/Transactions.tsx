@@ -27,6 +27,7 @@ import { transactions } from "../../utils/sample_data";
 import { formatCurrency } from "../../utils/currency";
 import formatDate from "../../utils/formatDate";
 import { capitalizeFirstLetter } from "../../utils/capitalize";
+import PaginationControl from "../../components/Pagination";
 
 type Props = {};
 
@@ -154,6 +155,7 @@ function Transactions({}: Props) {
             </Table>
           </TableContainer>
         </Box>
+        <PaginationControl />
       </Box>
     </DashboardLayout>
   );

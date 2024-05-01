@@ -20,7 +20,7 @@ function Header(props: BoxProps) {
       <Wrapper>
         <Flex width={"100%"} justifyContent={"space-between"} p={"24px 0"}>
           <Logo />
-          <Box>
+          <Box transform={"translateY(.5em)"}>
           ⭐ Your default currency is <chakra.span fontWeight={"extrabold"}>NGN</chakra.span>
           </Box>
           <HStack>
